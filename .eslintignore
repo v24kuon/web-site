@@ -5,4 +5,4 @@ public/
 **/*.min.js
 *.config.js
 .*lintrc.js
-src/components/Post.tsx
+types.ts

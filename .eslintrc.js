@@ -33,7 +33,12 @@ module.exports = {
         namedComponents: 'arrow-function', // 'function-declaration' | 'function-expression' | 'arrow-function'
       },
     ],
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/no-unsafe-argument': 'off',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
     'no-use-before-define': 'off',
+    'no-alert': 0,
     '@typescript-eslint/no-use-before-define': ['error'],
     'lines-between-class-members': [
       'error',
@@ -77,7 +82,7 @@ module.exports = {
       },
     ],
     'react/jsx-props-no-spreading': [
-      'error',
+      'off',
       {
         html: 'enforce',
         custom: 'enforce',

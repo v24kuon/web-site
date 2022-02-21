@@ -1,11 +1,25 @@
 import './App.css';
-import Post from './components/Post';
-import Title from './components/Title';
+import Navbar from './components/Navbar';
+import Top from './components/Top';
+import LinkImage from './components/LinkImage';
+import News from './components/News';
+import Service from './components/Service';
+import EstatePosts from './components/EstatePosts';
+import Greeting from './components/Greeting';
+import About from './components/About';
+import Footer from './components/Footer';
 
 const App = () => (
   <div className="App">
-    <Title />
-    <Post />
+    <Navbar />
+    <Top />
+    <LinkImage />
+    <News />
+    <Service />
+    <EstatePosts />
+    <Greeting />
+    <About />
+    <Footer />
   </div>
 );
 
