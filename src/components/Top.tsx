@@ -12,6 +12,7 @@ const Top = () => {
     infinite: true,
     speed: 2000,
     fade: true,
+    arrows: false,
     pauseOnHover: false,
   };
   const images = [
@@ -23,8 +24,8 @@ const Top = () => {
   return (
     <Slider {...settings}>
       {images.map((img) => (
-        <div className="w-full" key={img.id}>
-          <img src={img.url} alt="スライダー" className="w-full" />
+        <div key={img.id}>
+          <img src={img.url} alt="スライダー" />
         </div>
       ))}
     </Slider>
