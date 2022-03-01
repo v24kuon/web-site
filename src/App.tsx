@@ -8,6 +8,7 @@ import EstatePosts from './components/EstatePosts';
 import Greeting from './components/Greeting';
 import About from './components/About';
 import Footer from './components/Footer';
+import RemodelingPost from './components/RemodelingPost';
 
 const App = () => (
   <div className="App">
@@ -17,6 +18,7 @@ const App = () => (
     <News />
     <Service />
     <EstatePosts />
+    <RemodelingPost />
     <Greeting />
     <About />
     <Footer />

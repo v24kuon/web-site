@@ -1,5 +1,6 @@
 import RenovationNews from './RenovationNews';
 import EstateNews from './EstateNews';
+import RemodelingNews from './RemodelingNews';
 
 const News = () => (
   <div className="bg-[#efece9] py-8">
@@ -8,11 +9,12 @@ const News = () => (
         <h2 className="font-black text-xl mb-8">NEWS</h2>
         <RenovationNews />
         <EstateNews />
+        <RemodelingNews />
       </div>
       <div>
         <iframe
           className="aspect-video max-w-full"
-          width="500"
+          width="600"
           src="https://www.youtube.com/embed/iqb4sinfCRM"
           title="YouTube video player"
           frameBorder="0"

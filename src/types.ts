@@ -10,3 +10,10 @@ export type PostStateType = {
   postTitle: string;
   postImage: string;
 };
+
+export type RemodelingStateType = {
+  id: number;
+  url: string;
+  title: string;
+  thumbnail: string;
+}[];
