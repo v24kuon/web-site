@@ -2,7 +2,7 @@ import AboutImage from '../images/about_image1.webp';
 
 const About = () => (
   <div className="py-12">
-    <h2 className="font-bold lg:text-3xl md:text-2xl text-xl mb-12 text-center">
+    <h2 className="font-bold lg:text-3xl md:text-2xl text-xl mb-12 text-center text-gray-500">
       会社概要
     </h2>
     <div className="container mx-auto p-4">
@@ -59,7 +59,7 @@ const About = () => (
         </p>
       </div>
       <img src={AboutImage} alt="会社概要画像" className="mx-auto" />
-      <h2 className="font-bold lg:text-3xl md:text-2xl text-xl py-16 text-center">
+      <h2 className="font-bold lg:text-3xl md:text-2xl text-xl py-16 text-center text-gray-500">
         沿革
       </h2>
       <div className="lg:w-3/4 xl:w-3/5 border border-black grid gap-4 grid-cols-1 sm:grid-cols-2 mx-auto mb-12 p-8 justify-items-center">
@@ -73,16 +73,16 @@ const About = () => (
           昭和47年 サッシ 販売開始
         </p>
         <p>
-          昭和23年 福島木工開設
+          昭和50年 ＳＳパネル工場総築開始
           <br />
-          昭和40年 家具・建築資材の販売
+          平成13年 デコスドライ事業 開始
           <br />
-          昭和43年 株式会社へ組織変更
+          平成18年12月 東京南長崎マンション 経営開始
           <br />
-          昭和47年 サッシ 販売開始
+          平成30年9月 ホテル丸福京都東山 オープン
         </p>
       </div>
-      <h2 className="font-bold lg:text-3xl md:text-2xl text-xl py-16 text-center">
+      <h2 className="font-bold lg:text-3xl md:text-2xl text-xl py-16 text-center text-gray-500">
         ACCESS
       </h2>
       <iframe

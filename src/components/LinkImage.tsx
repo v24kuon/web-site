@@ -6,7 +6,7 @@ import LinkImage5 from '../images/link_image5.webp';
 
 const LinkImage = () => (
   <div className="container mx-auto py-4 text-center">
-    <h2 className="font-bold lg:text-3xl md:text-2xl text-xl mb-4">
+    <h2 className="font-bold lg:text-3xl md:text-2xl text-xl mb-4 text-gray-500">
       京丹後の住宅・リフォーム・不動産の
       <br className="sm:hidden" />
       ご相談は、まるふく産商へ

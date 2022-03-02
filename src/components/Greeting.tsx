@@ -3,7 +3,7 @@ import GreetingImage from '../images/greeting_image.webp';
 const Greeting = () => (
   <div className="bg-[#edeaea] py-12">
     <div className="container mx-auto p-4">
-      <h2 className="font-bold lg:text-3xl md:text-2xl text-xl mb-12 text-center">
+      <h2 className="font-bold lg:text-3xl md:text-2xl text-xl mb-12 text-center text-gray-500">
         代表挨拶
       </h2>
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 justify-items-center">
