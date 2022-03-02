@@ -62,7 +62,7 @@ const About = () => (
       <h2 className="font-bold lg:text-3xl md:text-2xl text-xl py-16 text-center text-gray-500">
         沿革
       </h2>
-      <div className="lg:w-3/4 xl:w-3/5 border border-black grid gap-4 grid-cols-1 md:grid-cols-12 mx-auto mb-12 xl:p-8 lg:p-6 p-4 sm:justify-items-start">
+      <div className="lg:w-3/4 xl:w-3/5 border border-black grid gap-4 grid-cols-1 md:grid-cols-12 mx-auto mb-12 xl:p-8 lg:p-6 p-4 justify-items-start md:justify-items-center">
         <p className="lg:col-span-6 md:col-span-5 text-sm sm:text-base">
           昭和23年 福島木工開設
           <br />
